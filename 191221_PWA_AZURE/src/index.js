@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const App = () => <div className="app">HELLO Azure world</div>;
+const App = () => <div className="app">알 수가 없군요...</div>;
 
 ReactDOM.render(<App />, document.getElementById("app"));
 

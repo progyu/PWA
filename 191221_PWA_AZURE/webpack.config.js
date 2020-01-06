@@ -41,5 +41,8 @@ module.exports = {
     new GenerateSW({
       include: [/\.html$/, /\.js$/],
     })
-  ]
+  ],
+  devServer: {
+    port: 9001
+  },
 };
